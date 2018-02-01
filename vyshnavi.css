@@ -22,7 +22,7 @@
 /* Add a color to the active/current link */
 .topnav a.active {
    
-    color: white;
+    background-color: blue;
 	align:center;
 }
 	
@@ -53,7 +53,7 @@ footer {
 	padding-bottom:10;
     
 	}
-	header h4{ 
+header h4{ 
 	text-align:center;
 	padding-bottom:10;
 	 border-radius: 25px;
@@ -62,15 +62,18 @@ footer {
     height: 10px;
 
 	}
-	#past-section {
+#past-section {
 	font-style: italic;	
 	font-size: 25px;
 	font-family:"Apple Chancery", "cursive";
 	}
-	#future-section{
+#future-section{
 		font-style: italic;
 		font-size: 25px;
 		font-family:"Apple Chancery", "cursive";
 	}
 	
 	
+.form {
+	max-width: 500px;
+}
